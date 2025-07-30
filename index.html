@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog | Home</title>
+    <link rel="stylesheet" href="styles/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><a href="index.html">My Blog</a></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutMe.html">About</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <h2>Welcome to My Blog</h2>
+        <p>Here you'll find my thoughts and experiences on various topics.</p>
+      </section>
+
+      <section class="blog-posts">
+        <h3>Latest Posts</h3>
+
+        <article class="blog-card">
+          <h4><a href="blog1.html">My Journey into Web Development</a></h4>
+          <p class="date">January 15, 2025</p>
+          <p class="excerpt">
+            Learning web development has been an incredible journey filled with
+            challenges and discoveries. From HTML basics to complex
+            frameworks...
+          </p>
+          <a href="blog1.html" class="read-more">Read More</a>
+        </article>
+
+        <article class="blog-card">
+          <h4><a href="blog2.html">Why I Love Coding at Night</a></h4>
+          <p class="date">January 10, 2025</p>
+          <p class="excerpt">
+            There's something magical about coding in the quiet hours of the
+            night. The world sleeps while ideas come to life on the screen...
+          </p>
+          <a href="blog2.html" class="read-more">Read More</a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
