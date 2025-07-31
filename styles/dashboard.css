@@ -12,18 +12,17 @@ body {
 }
 
 header {
-  background: #2c3e50;
+  background: #000810;
   color: white;
-  padding: 1rem 0;
+  padding: 16px 0;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 nav {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,9 +66,10 @@ main {
 }
 
 .stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  justify-content: space-evenly;
   gap: 1.5rem;
+  flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
@@ -79,6 +79,8 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  flex: 1 1 200px;
+  max-width: 300px;
   transition: transform 0.3s ease;
 }
 
@@ -225,8 +227,7 @@ footer {
     gap: 1.5rem;
   }
 
-  .recent-posts,
-  .quick-actions {
+  .recent-posts {
     padding: 1.5rem;
   }
 
