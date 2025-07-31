@@ -14,16 +14,15 @@ body {
 header {
     background: #2c3e50;
     color: white;
-    padding: 1rem 0;
+    padding: 16px 0;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
 nav {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
