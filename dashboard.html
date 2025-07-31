@@ -1,11 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Blogger</title>
+    <link rel="stylesheet" href="styles/dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><a href="index.html">Blogger</a></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutMe.html">About</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="dashboard-header">
+        <h2>Dashboard</h2>
+        <p>Manage your blog and view statistics</p>
+      </section>
+
+      <section class="stats-grid">
+        <div class="stat-card">
+          <h3>Total Posts</h3>
+          <div class="stat-number">2</div>
+          <p class="stat-change">+2 this month</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Total Views</h3>
+          <div class="stat-number">247</div>
+          <p class="stat-change">+15% this week</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Comments</h3>
+          <div class="stat-number">12</div>
+          <p class="stat-change">+3 new</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Followers</h3>
+          <div class="stat-number">89</div>
+          <p class="stat-change">+7 this week</p>
+        </div>
+      </section>
+
+      <section class="dashboard-content">
+        <div class="recent-posts">
+          <h3>Recent Posts</h3>
+          <div class="post-item">
+            <div class="post-info">
+              <h4>My Journey into Web Development</h4>
+              <p class="post-date">January 15, 2025</p>
+              <p class="post-stats">156 views • 8 comments</p>
+            </div>
+            <div class="post-actions">
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </div>
+          </div>
+
+          <div class="post-item">
+            <div class="post-info">
+              <h4>Why I Love Coding at Night</h4>
+              <p class="post-date">January 10, 2025</p>
+              <p class="post-stats">91 views • 4 comments</p>
+            </div>
+            <div class="post-actions">
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Blogger. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

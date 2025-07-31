@@ -12,18 +12,17 @@ body {
 }
 
 header {
-    background: #2c3e50;
+    background: #000000;
     color: white;
-    padding: 1rem 0;
+    padding: 16px 0px;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
 nav {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,10 +80,6 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-}
-
-.blog-card:hover {
-    transform: translateY(-2px);
 }
 
 .blog-card h4 {
