@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html{
+    font-size: 16px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -86,7 +89,7 @@ main {
 }
 
 .stat-card:hover {
-  transform: translateY(-2px);
+  transform: scale(1.05);
 }
 
 .stat-card h3 {
@@ -94,7 +97,6 @@ main {
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .stat-number {
@@ -108,12 +110,6 @@ main {
   color: #27ae60;
   font-size: 0.9rem;
   font-weight: bold;
-}
-
-.dashboard-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
 }
 
 .recent-posts {
@@ -208,11 +204,6 @@ footer {
 
   main {
     padding: 0 1rem;
-  }
-
-  .stats-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
   }
 
   .stat-card {
